@@ -1,34 +1,61 @@
 * {
-    background-color: #D9D9D9 ;
+    margin: 0;
+    padding: 0;
     font-family: "Lora", serif;
-    
-}
-.container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 50vh;
-    flex-direction: column;
-}
-.fundo  {
-    background-color: white;
-    border-radius: 50px;
-    width: 50%;
-    height: 50%;
+    box-sizing: border-box;
 }
 
-.title {
-    
-    font-weight: bold;
-    font-style: italic;
-    color: #111E64;
+body {
+    background-color: #D9D9D9;
 }
-.container p {
+
+.container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    background-color: #FFFF;
+    padding: 70px;
+    border-radius: 50px;
+    width: 35%;
+}
+
+.card h1{
     font-weight: bold;
-    background-color: white;
-    width: 20%;
-    height: 25%;
-    padding-left: 200px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10 px;
+}
+
+.campo label {
+    min-width: 150px;
+    font-weight: bold;
+}
+
+.campo input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #000;
+}
+button {
+    display: block;
+    margin-left: auto;
+    margin-top: 20px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: #111E64;
+    color: white;
+    cursor: pointer;
 }
