@@ -144,6 +144,7 @@ body {
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 
 }
+
 #Option_re {
     background: white;
     margin-top: 3px;
@@ -156,7 +157,10 @@ body {
 }
 
 #Option {
-    background: rgba(217, 217, 217, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     margin-top: 3px;
     padding-top: 8px;
     text-align: center;
@@ -197,9 +201,11 @@ body {
     width: 200px;
     text-align: center;
 }
-#Signup:hover{
-    background-color: blue;
-    }
+
+#Signup:hover {
+    background: linear-gradient(200deg, #ff6a00b7 10%, #0000003d 60%, #3b219791 100%);
+}
+
 .campo {
     display: flex;
     justify-content: center;
