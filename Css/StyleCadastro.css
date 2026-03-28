@@ -1,7 +1,5 @@
 * {
     font-family: 'Lora', serif;
-        outline: 1px solid red;
-
 }
 
 body {
@@ -28,6 +26,7 @@ body {
 }
 
 .Card p {
+    margin-top: 5px;
     text-align: center;
     font-size: 48px;
     color: #FFFFFF;
@@ -80,8 +79,8 @@ body {
 
 #boll_1 {
     position: absolute;
-    bottom: 85%;
-    right: 85%;
+    bottom: 75%;
+    right: 80%;
     transform: translate(0, 0);
     border-radius: 50%;
     width: 200px;
@@ -92,8 +91,8 @@ body {
 
 #boll_2 {
     position: absolute;
-    bottom: -8%;
-    left: 90%;
+    bottom: -10%;
+    left: 84%;
     transform: translate(0, 0);
     border-radius: 50%;
     width: 145px;
@@ -105,7 +104,7 @@ body {
 #boll_3 {
     position: absolute;
     bottom: 23%;
-    right: 90%;
+    right: 84%;
     transform: translate(0, 0);
     border-radius: 50%;
     width: 145px;
@@ -118,7 +117,7 @@ body {
 #boll_4 {
     position: absolute;
     top: -5%;
-    right: -20%;
+    right: -15%;
     transform: rotate(-1.12deg);
     border-radius: 50%;
     width: 268.04px;
@@ -135,7 +134,7 @@ body {
     background: rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
-    height: 800px;
+    height: 600px;
     width: 600px;
     position: relative;
     z-index: 1;
@@ -178,6 +177,7 @@ body {
     border-radius: 30px;
     height: 50px;
     width: 400px;
+    margin-top: -30px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.2);
     background: rgba(255, 255, 255, 0.08);
@@ -219,7 +219,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin-top: 140px;
+    margin-top: 60px;
 
 }
 
@@ -254,6 +254,6 @@ input:focus {
 }
 
 .campo_singup {
-    margin-top: 150px;
+    margin-top: 70px;
     margin-left: 90px;
 }
