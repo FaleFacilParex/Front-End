@@ -107,3 +107,7 @@ h1{
   border: #5B5B5B 1px solid;
   background-color: #363636;
 }
+.table_box{
+    background-color: #363636;
+    height: 600px;
+}
